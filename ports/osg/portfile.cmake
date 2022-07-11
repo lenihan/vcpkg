@@ -4,7 +4,7 @@ vcpkg_from_github(
 	OUT_SOURCE_PATH SOURCE_PATH
 	REPO openscenegraph/OpenSceneGraph
 	REF 683403244a489fe3e71f1533580c22e099774a36 # April 7, 2022 update from Robert Osfield. Need latest fixes to run. Was OpenSceneGraph-${OSG_VER}
-	SHA512 0 # Was 7002fa30a3bcf6551d2e1050b4ca75a3736013fd190e4f50953717406864da1952deb09f530bc8c5ddf6e4b90204baec7dbc283f497829846d46d561f66feb4b
+	SHA512 9edd364443fa2f5ee57e3830f09ccc65bacc617e2a30b397decc0671080c222fc9922563f9335f5bf795bb09b61efaa1beb4d5f19ed8640e5b2dadf766a1ed52 # Was 7002fa30a3bcf6551d2e1050b4ca75a3736013fd190e4f50953717406864da1952deb09f530bc8c5ddf6e4b90204baec7dbc283f497829846d46d561f66feb4b
 	HEAD_REF master
     PATCHES
         link-libraries.patch
