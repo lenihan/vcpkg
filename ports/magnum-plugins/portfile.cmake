@@ -83,6 +83,7 @@ vcpkg_cmake_configure(
         -DMAGNUM_PLUGINS_DEBUG_DIR=${CURRENT_INSTALLED_DIR}/debug/bin/magnum-d
         -DMAGNUM_PLUGINS_RELEASE_DIR=${CURRENT_INSTALLED_DIR}/bin/magnum
         -DMAGNUM_WITH_GLTFIMPORTER=ON
+        -DMAGNUM_WITH_PNGIMPORTER=ON
 )
 
 vcpkg_cmake_install()
